@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<title>KeyShotVR</title>
+<script language="JavaScript" type="text/javascript" src="0925-color_VR.223/files/KeyShotVR.js">
+</script>
+<script language="JavaScript" type="text/javascript">
+<!--
+
+var keyshotVR;
+
+function initKeyShotVR()
+{
+	var nameOfDiv = "KeyShotVR";
+	var folderName = "0925-color_VR.223";
+	var imageWidth = 1920;
+	var imageHeight = 938;
+	var backgroundColor = "#000000";
+	var uCount = 22;
+	var vCount = 12;
+	var uWrap = true;
+	var vWrap = false;
+	var uMouseSensitivity = -0.091667;
+	var vMouseSensitivity = 0.112500;
+	var uStartIndex = 11;
+	var vStartIndex = 5;
+	var minZoom = 0.200000;
+	var maxZoom = 2.000000;
+	var rotationDamping = 1.000000;
+	var windowResizable = true;
+	var enableLOD = false;
+	var addResizableGUIButton = false;
+	var addPlayGUIButton = false;
+	keyshotVR = new keyshotVR(nameOfDiv,folderName,imageWidth,imageHeight,backgroundColor,uCount,vCount,uWrap,vWrap,uMouseSensitivity,vMouseSensitivity,uStartIndex,vStartIndex,minZoom,maxZoom,rotationDamping,windowResizable,enableLOD,addResizableGUIButton,addPlayGUIButton);
+}
+
+// -->
+</script>
+</head>
+<body oncontextmenu="return false;" onload="initKeyShotVR();">
+<div id="KeyShotVR" style="width:800px;height:600px;">
+</div> 
+</body>
+</html>
